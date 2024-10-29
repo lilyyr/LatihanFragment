@@ -93,19 +93,6 @@ class hal1 : Fragment() {
                         addToBackStack(null)
                         commit()
                     }
-                } else if (cards.all { it.tag == "flipped" }) {
-                    val mBundle = Bundle()
-                    mBundle.putString("DATA", score.toString())
-
-                    val mfDua = hal2()
-                    mfDua.arguments = mBundle
-
-                    val mFragmentManager = parentFragmentManager
-                    mFragmentManager.beginTransaction().apply {
-                        replace(R.id.main, mfDua, hal2::class.java.simpleName)
-                        addToBackStack(null)
-                        commit()
-                    }
                     return@setOnClickListener
                 }
 
@@ -150,6 +137,22 @@ class hal1 : Fragment() {
                         }, 300)
                     }
 
+                }
+
+                if (cards.all { it.tag == "flipped" }) {
+                    val mBundle = Bundle()
+                    mBundle.putString("DATA", score.toString())
+
+                    val mfDua = hal2()
+                    mfDua.arguments = mBundle
+
+                    val mFragmentManager = parentFragmentManager
+                    mFragmentManager.beginTransaction().apply {
+                        replace(R.id.main, mfDua, hal2::class.java.simpleName)
+                        addToBackStack(null)
+                        commit()
+                    }
+                    return@setOnClickListener
                 }
             }
         }
