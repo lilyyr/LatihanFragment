@@ -8,9 +8,36 @@
 
     <!-- TODO: Update blank fragment layout -->
 
+    <Button
+        android:id="@+id/halDua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Halaman 2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.234"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/halTiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Halaman 3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="MissingConstraints" />
+
     <ImageView
+        android:id="@+id/numOne"
         android:layout_width="90dp"
-        android:layout_height="90dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
         android:background="@drawable/background"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,23 +48,11 @@
         app:layout_constraintVertical_bias="0.191"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/numOne"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="?"
-        android:textSize="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.326"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2"
-        tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:id="@+id/numTwo"
         android:layout_width="90dp"
-        android:layout_height="90dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
         android:background="@drawable/background"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,23 +63,10 @@
         app:layout_constraintVertical_bias="0.191"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/numOne"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="?"
-        android:textSize="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.671"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2"
-        tools:ignore="MissingConstraints" />
-
     <ImageView
+        android:id="@+id/numThree"
         android:layout_width="90dp"
-        android:layout_height="90dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
         android:background="@drawable/background"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -76,23 +78,10 @@
         tools:ignore="MissingConstraints" />
 
 
-    <TextView
-        android:id="@+id/numOne"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="?"
-        android:textSize="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.177"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393"
-        tools:ignore="MissingConstraints" />
-
     <ImageView
+        android:id="@+id/numFour"
         android:layout_width="90dp"
-        android:layout_height="90dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
         android:background="@drawable/background"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -103,23 +92,10 @@
         app:layout_constraintVertical_bias="0.391"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/numOne"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="?"
-        android:textSize="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393"
-        tools:ignore="MissingConstraints" />
-
     <ImageView
+        android:id="@+id/numFive"
         android:layout_width="90dp"
-        android:layout_height="90dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
         android:background="@drawable/background"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -130,23 +106,10 @@
         app:layout_constraintVertical_bias="0.391"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/numOne"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="?"
-        android:textSize="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.835"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393"
-        tools:ignore="MissingConstraints" />
-
     <ImageView
+        android:id="@+id/numSix"
         android:layout_width="90dp"
-        android:layout_height="90dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
         android:background="@drawable/background"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -157,23 +120,10 @@
         app:layout_constraintVertical_bias="0.581"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/numOne"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="?"
-        android:textSize="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.177"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.579"
-        tools:ignore="MissingConstraints" />
-
     <ImageView
+        android:id="@+id/numSeven"
         android:layout_width="90dp"
-        android:layout_height="90dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
         android:background="@drawable/background"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -184,23 +134,10 @@
         app:layout_constraintVertical_bias="0.581"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/numOne"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="?"
-        android:textSize="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.579"
-        tools:ignore="MissingConstraints" />
-
     <ImageView
+        android:id="@+id/numEight"
         android:layout_width="90dp"
-        android:layout_height="90dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
         android:background="@drawable/background"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -211,23 +148,10 @@
         app:layout_constraintVertical_bias="0.581"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/numOne"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="?"
-        android:textSize="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.835"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.579"
-        tools:ignore="MissingConstraints" />
-
     <ImageView
+        android:id="@+id/numNine"
         android:layout_width="90dp"
-        android:layout_height="90dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
         android:background="@drawable/background"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -238,23 +162,10 @@
         app:layout_constraintVertical_bias="0.769"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/numOne"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="?"
-        android:textSize="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.326"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.763"
-        tools:ignore="MissingConstraints" />
-
     <ImageView
+        android:id="@+id/numTen"
         android:layout_width="90dp"
-        android:layout_height="90dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
         android:background="@drawable/background"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -265,19 +176,20 @@
         app:layout_constraintVertical_bias="0.769"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/numOne"
+    <Button
+        android:id="@+id/giveUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="?"
-        android:textSize="50dp"
+        android:text="Give Up"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.664"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.763"
+        app:layout_constraintVertical_bias="0.92"
         tools:ignore="MissingConstraints" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
